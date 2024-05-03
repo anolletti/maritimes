@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/maritimes/static/css/main.059b0592.css",
-    "main.js": "/maritimes/static/js/main.7578cf06.js",
+    "main.js": "/maritimes/static/js/main.9977ee11.js",
     "static/js/488.a49567c3.chunk.js": "/maritimes/static/js/488.a49567c3.chunk.js",
     "index.html": "/maritimes/index.html",
     "main.059b0592.css.map": "/maritimes/static/css/main.059b0592.css.map",
-    "main.7578cf06.js.map": "/maritimes/static/js/main.7578cf06.js.map",
+    "main.9977ee11.js.map": "/maritimes/static/js/main.9977ee11.js.map",
     "488.a49567c3.chunk.js.map": "/maritimes/static/js/488.a49567c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.059b0592.css",
-    "static/js/main.7578cf06.js"
+    "static/js/main.9977ee11.js"
   ]
 }
