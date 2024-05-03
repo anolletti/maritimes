@@ -11,7 +11,14 @@ import {
 
 function App() {
   const [date, setDate] = useState(1000);
-
+  const home = (
+    <a
+      target="_blank"
+      rel="noreferrer"
+      href="https://www.google.com/maps/place/41+Eaglewood+Dr,+Hanwell,+NB+E3E+2K4/@45.8855736,-66.7739603,17z/data=!3m1!4b1!4m5!3m4!1s0x4ca424bfa4cc7f8d:0xca16e3619148c405!8m2!3d45.8855699!4d-66.77138?entry=ttu">
+      41 Eaglewood Drive
+    </a>
+  );
   const handleSelect = (e) => {
     setDate(parseInt(e.target.value));
     // You can perform any action with the selected value here
@@ -27,20 +34,20 @@ function App() {
     "Thursday, Aug 8",
     "Friday, Aug 9",
     "Saturday, Aug 10",
+    "Sunday, Aug 11",
+    "Monday, Aug 12",
+    "Tuesday, Aug 13",
+    "Wednesday, Aug 14",
+    "Thursday, Aug 15",
+    "Friday, Aug 16",
+    "Saturday, Aug 17",
   ];
   const data = [
     {
       date: ["Thursday, Aug 1"],
       location: ["Calgary", "Fredericton"],
-      accomodations: [
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.google.com/maps/place/41+Eaglewood+Dr,+Hanwell,+NB+E3E+2K4/@45.8855736,-66.7739603,17z/data=!3m1!4b1!4m5!3m4!1s0x4ca424bfa4cc7f8d:0xca16e3619148c405!8m2!3d45.8855699!4d-66.77138?entry=ttu">
-          41 Eaglewood Drive
-        </a>,
-      ],
-      sunActivities: ["Arrive @ 7:22pm, have a drink, head to bed"],
+      accomodations: [home],
+      sunActivities: ["Arrive @ 7:22pm, have a drink, Artic Spa"],
       rainActivities: [],
       info: [
         "Remember Park Pass!",
@@ -51,14 +58,7 @@ function App() {
     {
       date: ["Friday, Aug 2"],
       location: ["Fredericton"],
-      accomodations: [
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.google.com/maps/place/41+Eaglewood+Dr,+Hanwell,+NB+E3E+2K4/@45.8855736,-66.7739603,17z/data=!3m1!4b1!4m5!3m4!1s0x4ca424bfa4cc7f8d:0xca16e3619148c405!8m2!3d45.8855699!4d-66.77138?entry=ttu">
-          41 Eaglewood Drive
-        </a>,
-      ],
+      accomodations: [home],
       sunActivities: [
         "Nashwaak River Tubing: 1575, Route 148, Durham Bridge, NB E6C 2Z9, (506) 457-2300",
         "Tour of Downtown Fredericton",
@@ -74,14 +74,7 @@ function App() {
     {
       date: ["Saturday, Aug 3"],
       location: ["Fredericton"],
-      accomodations: [
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.google.com/maps/place/41+Eaglewood+Dr,+Hanwell,+NB+E3E+2K4/@45.8855736,-66.7739603,17z/data=!3m1!4b1!4m5!3m4!1s0x4ca424bfa4cc7f8d:0xca16e3619148c405!8m2!3d45.8855699!4d-66.77138?entry=ttu">
-          41 Eaglewood Drive
-        </a>,
-      ],
+      accomodations: [home],
       sunActivities: [
         "Fredericton Farmer's Market",
         "Nashwaak River",
@@ -98,14 +91,7 @@ function App() {
     {
       date: ["Sunday, Aug 4"],
       location: ["Fredericton", "Saint John"],
-      accomodations: [
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.google.com/maps/place/41+Eaglewood+Dr,+Hanwell,+NB+E3E+2K4/@45.8855736,-66.7739603,17z/data=!3m1!4b1!4m5!3m4!1s0x4ca424bfa4cc7f8d:0xca16e3619148c405!8m2!3d45.8855699!4d-66.77138?entry=ttu">
-          41 Eaglewood Drive
-        </a>,
-      ],
+      accomodations: [home],
       sunActivities: [
         "Irving Nature Park",
         "Area 506",
@@ -205,6 +191,87 @@ function App() {
       rainActivities: [],
       info: [],
     },
+    {
+      date: ["Sunday, Aug 11"],
+      location: ["Halifax"],
+      accomodations: ["?"],
+      sunActivities: [
+        "Citadel",
+        "Maritime Museum of the Atlantic",
+        "Halifax Market",
+        "Peggy's Cove",
+        "Boardwalk",
+      ],
+      rainActivities: [],
+      info: [],
+    },
+    {
+      date: ["Monday, Aug 12"],
+      location: ["Halifax"],
+      accomodations: ["?"],
+      sunActivities: [
+        "Citadel",
+        "Maritime Museum of the Atlantic",
+        "Halifax Market",
+        "Peggy's Cove",
+        "Boardwalk",
+      ],
+      rainActivities: [],
+      info: [],
+    },
+    {
+      date: ["Tuesday, Aug 13"],
+      location: ["Moncton?"],
+      accomodations: ["?"],
+      sunActivities: [
+        "Moncton",
+        "Shediac Beaches",
+        "Hopewell Rocks",
+        "Fundy National Park for Tides",
+      ],
+      rainActivities: [],
+      info: [],
+    },
+    {
+      date: ["Wednesday, Aug 14"],
+      location: ["Alma?"],
+      accomodations: ["?"],
+      sunActivities: [],
+      rainActivities: [],
+      info: ["Recalibration day?"],
+    },
+    {
+      date: ["Thursday, Aug 15"],
+      location: ["Fredericton", "St. Andrews"],
+      accomodations: [home],
+      sunActivities: [
+        "Minister's Island",
+        "St. Andrews-by-the-Sea",
+        "Whale Watching",
+      ],
+      rainActivities: [],
+      info: [],
+    },
+    {
+      date: ["Friday, Aug 16"],
+      location: ["Fredericton"],
+      accomodations: [home],
+      sunActivities: [],
+      rainActivities: [],
+      info: [],
+    },
+    {
+      date: ["Saturday, Aug 17"],
+      location: ["Fredericton"],
+      accomodations: [home],
+      sunActivities: [],
+      rainActivities: [],
+      info: [
+        "Departure: 3:10PM",
+        "Flight: PD 2380",
+        "Airline Confirmation: B1W96Y",
+      ],
+    },
   ];
   return (
     <div>
@@ -218,7 +285,7 @@ function App() {
       <div className="bg-light min-vh-100 pt-2 px-3">
         <div className="d-flex justify-content-center align-items-center mt-4">
           <Calendar className="me-3 text-secondary" />
-          <select className="form-select w-25" onChange={handleSelect}>
+          <select className="form-select w-50" onChange={handleSelect}>
             <option defaultValue value={1000}>
               All
             </option>
