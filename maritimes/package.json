@@ -1,5 +1,6 @@
 {
   "name": "maritimes",
+  "homepage": "https://anolletti.github.io/maritimes/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
