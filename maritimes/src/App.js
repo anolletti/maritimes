@@ -47,7 +47,7 @@ function App() {
       date: ["Thursday, Aug 1"],
       location: ["Calgary", "Fredericton"],
       accomodations: [home],
-      sunActivities: ["Arrive @ 7:22pm, have a drink, Artic Spa"],
+      sunActivities: ["Arrive @ 7:22pm", "Have a drink", "Artic Spa"],
       rainActivities: [],
       info: [
         "Remember Park Pass!",
@@ -62,6 +62,7 @@ function App() {
       sunActivities: [
         "Nashwaak River Tubing: 1575, Route 148, Durham Bridge, NB E6C 2Z9, (506) 457-2300",
         "Tour of Downtown Fredericton",
+        "Kayaking",
       ],
       rainActivities: [
         "Beaverbrook Art Gallery",
@@ -90,9 +91,10 @@ function App() {
     },
     {
       date: ["Sunday, Aug 4"],
-      location: ["Fredericton", "Saint John"],
+      location: ["Fredericton to St.Martins/Saint John to Fredericton"],
       accomodations: [home],
       sunActivities: [
+        "St. Martin's Caves",
         "Irving Nature Park",
         "Area 506",
         "Tour of Uptown",
@@ -103,7 +105,7 @@ function App() {
     },
     {
       date: ["Monday, Aug 5"],
-      location: ["Fredericton", "Prince Edward Island"],
+      location: ["Fredericton to Prince Edward Island"],
       accomodations: [
         <a
           target="_blank"
@@ -194,7 +196,14 @@ function App() {
     {
       date: ["Sunday, Aug 11"],
       location: ["Halifax"],
-      accomodations: ["?"],
+      accomodations: [
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://maps.app.goo.gl/dHCTqLEj9ifGV49R6">
+          Chocolate Lake Hotel, 250 Saint Margaret's Bay Road, Halifax, B3N 1J4
+        </a>,
+      ],
       sunActivities: [
         "Citadel",
         "Maritime Museum of the Atlantic",
@@ -208,7 +217,14 @@ function App() {
     {
       date: ["Monday, Aug 12"],
       location: ["Halifax"],
-      accomodations: ["?"],
+      accomodations: [
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://maps.app.goo.gl/dHCTqLEj9ifGV49R6">
+          Chocolate Lake Hotel, 250 Saint Margaret's Bay Road, Halifax, B3N 1J4
+        </a>,
+      ],
       sunActivities: [
         "Citadel",
         "Maritime Museum of the Atlantic",
@@ -221,27 +237,52 @@ function App() {
     },
     {
       date: ["Tuesday, Aug 13"],
-      location: ["Moncton?"],
-      accomodations: ["?"],
+      location: ["Halifax"],
+      accomodations: [
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://maps.app.goo.gl/dHCTqLEj9ifGV49R6">
+          Chocolate Lake Hotel, 250 Saint Margaret's Bay Road, Halifax, B3N 1J4
+        </a>,
+      ],
       sunActivities: [
-        "Moncton",
-        "Shediac Beaches",
-        "Hopewell Rocks",
-        "Fundy National Park for Tides",
+        "Citadel",
+        "Maritime Museum of the Atlantic",
+        "Halifax Market",
+        "Peggy's Cove",
+        "Boardwalk",
       ],
       rainActivities: [],
       info: [],
     },
     {
       date: ["Wednesday, Aug 14"],
-      location: ["Alma?"],
-      accomodations: ["?"],
-      sunActivities: [],
+      location: ["Moncton"],
+      accomodations: [
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://maps.app.goo.gl/ZryZ6wy3uhBNpSzAA">
+          Best Western Moncton, 300 Lewisville Road, Moncton
+        </a>,
+      ],
+      sunActivities: ["Hopewell Rocks", "Shediac", "Alma/Fundy National Park"],
       rainActivities: [],
-      info: ["Recalibration day?"],
+      info: [
+        "If you plan to visit Alma, tomorrow may be a better day to reduce driving.",
+      ],
     },
     {
       date: ["Thursday, Aug 15"],
+      location: ["Fredericton"],
+      accomodations: [home],
+      sunActivities: ["Alma", "Fredericton Garrison Night Market"],
+      rainActivities: [],
+      info: ["You could do Alma on the way home."],
+    },
+    {
+      date: ["Friday, Aug 16"],
       location: ["Fredericton", "St. Andrews"],
       accomodations: [home],
       sunActivities: [
@@ -249,15 +290,7 @@ function App() {
         "St. Andrews-by-the-Sea",
         "Whale Watching",
       ],
-      rainActivities: [],
-      info: [],
-    },
-    {
-      date: ["Friday, Aug 16"],
-      location: ["Fredericton"],
-      accomodations: [home],
-      sunActivities: [],
-      rainActivities: [],
+      rainActivities: ["Minister's Island"],
       info: [],
     },
     {
@@ -277,8 +310,8 @@ function App() {
     <div>
       <div className="text-white py-2 text-center bg-main">
         <div className="py-3">
-          <p className="m-0">Roger & Katherine</p>
-          <h2 className="m-0 fw-bold">Maritime Trip</h2>
+          <p className="m-0">Roger & Katharine</p>
+          <h2 className="m-0 fw-bold">Maritime Trip 2024</h2>
         </div>
       </div>
 
