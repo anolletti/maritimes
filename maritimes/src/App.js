@@ -211,7 +211,7 @@ function App() {
         "Peggy's Cove",
         "Boardwalk",
       ],
-      rainActivities: [],
+      rainActivities: ["Johnny K's Authentic Donairs"],
       info: [],
     },
     {
